@@ -20,9 +20,10 @@ export function getStudentById(id) {
 }
 
 export function deleteStudentById(id) {
-    const filteredStudents = students.filter(student => student.rollno !== id);
-    console.log(`Array after deleting ${id}`)
-    for (let student of filteredStudents) {
-        console.log(student.rollno + " : " + student.name);
+    const index = students.findIndex(student => student.rollno === id);
+    console.log(`Array after deleting ${id}`);
+    if(index !== -1){
+        students.splice(index,1);
     }
+    viewStudents();
 }
