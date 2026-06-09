@@ -17,5 +17,8 @@
   },
   "homepage": "https://github.com/vishvajitjamdade/NodeJS#readme",
   "description": "",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "mongodb": "^7.2.0"
+  }
 }
