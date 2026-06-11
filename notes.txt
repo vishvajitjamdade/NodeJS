@@ -2,3 +2,14 @@ npm init -y -----> is used to create a package.json file automatically with defa
 
 Concepts:
 1.Utility Modules
+2.absolute path - entire path
+3. relative path - used within same folder like image is also present in same folder and used also there
+Most preferred path is relative path
+4.http status codes
+
+
+Questions : 
+1.How to create the server
+2.How to load the pages
+
+In API '/' means home page
